@@ -1,0 +1,55 @@
+@import url('../style.css');
+
+.about .row {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.about .about__image {
+  position: relative;
+  overflow: hidden;
+}
+
+.about .about__image .about__image-sushi3,
+.about .about__image .about__image-sushi2 {
+  background-color: var(--color-white);
+  background-size: contain;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.about .about__image .about__image-sushi3 img,
+.about .about__image .about__image-sushi2 img {
+  width: 200px;
+}
+
+.about .about__image .about__image-sushi3 {
+  background-image: url('../../images/about_bg1.png');
+  margin-bottom: 10px;
+}
+
+.about .about__image .about__image-sushi2 {
+  background-image: url('../../images/about_bg2.png');
+}
+
+.about .about__image .btn-black {
+  position: absolute;
+  bottom: 280px;
+  right: -30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 220px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.about .about__image .btn-black img {
+  width: 10%;
+}
+
+.about .about__content {
+  padding: 60px 40px;
+}

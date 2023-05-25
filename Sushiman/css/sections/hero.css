@@ -6,7 +6,6 @@
 
 .hero .hero__image img {
   position: relative;
-  width: 100%;
   transform: matrix(1, 0.05, 0, 1.25, 0, 0);
 }
 
@@ -67,6 +66,13 @@
 
 .hero .hero__content .testimonial .review img {
   width: 42px;
+  margin: 0 auto;
+}
+
+.hero .hero__content .testimonial .review .row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .hero .hero__content .testimonial .review p {
@@ -131,7 +137,7 @@
   }
 
   .hero .hero__content .testimonial .review .row {
-    align-items: center;
+    gap: 0;
   }
 
   .hero .hero__content .testimonial .review .col:first-child {
